@@ -1,0 +1,24 @@
+body{
+    font-size: 20px;
+    /* padding: 32px;    */
+}
+
+/* Embedding Web-Fonts */
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(Fonts/OpenSans-Bold.ttf);
+}
+
+h1,
+h2 {
+    font-family: "Open Sans Bold";
+}
+
+p {
+    font-family: "Open Sans Regular";
+}
