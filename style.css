@@ -1,10 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
 body{
     font-size: 20px;
-    /* padding: 32px;    */
+    padding: 32px;  
+    font-family: 'Noto Sans', sans-serif; 
 }
 
 /* Embedding Web-Fonts */
-
+/* 
 @font-face {
     font-family: "Open Sans Regular";
     src: url(Fonts/OpenSans-Regular.ttf);
@@ -21,4 +25,13 @@ h2 {
 
 p {
     font-family: "Open Sans Regular";
+} */
+h1,
+h2,
+h3 {
+font-family: 'Roboto Condensed', sans-serif;
+color: red;
+}
+p{
+    color: #3b433b;
 }
